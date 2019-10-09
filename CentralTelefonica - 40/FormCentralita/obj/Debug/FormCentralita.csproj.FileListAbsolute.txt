@@ -1,0 +1,15 @@
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\bin\Debug\FormCentralita.exe.config
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\bin\Debug\FormCentralita.exe
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\bin\Debug\FormCentralita.pdb
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\bin\Debug\Entidades.dll
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\bin\Debug\Entidades.pdb
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.FrmLlamador.resources
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.FrmMenu.resources
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.FrmMostrar.resources
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.Properties.Resources.resources
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.csproj.GenerateResource.cache
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.csproj.CopyComplete
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.exe
+C:\Users\tomas\source\repos\CentralTelefonica - 40\FormCentralita\obj\Debug\FormCentralita.pdb
