@@ -1,0 +1,10 @@
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\bin\Debug\Practica.exe.config
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\bin\Debug\Practica.exe
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\bin\Debug\Practica.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\bin\Debug\Entidades.dll
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\bin\Debug\Entidades.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\obj\Debug\Practica.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\obj\Debug\Practica.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\obj\Debug\Practica.csproj.CopyComplete
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\obj\Debug\Practica.exe
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Practica\obj\Debug\Practica.pdb

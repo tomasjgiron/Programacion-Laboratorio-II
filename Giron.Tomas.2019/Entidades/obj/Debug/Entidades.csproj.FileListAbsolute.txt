@@ -1,0 +1,6 @@
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Entidades\bin\Debug\Entidades.dll
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Entidades\bin\Debug\Entidades.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Entidades\obj\Debug\Entidades.dll
+C:\Users\tomas\source\repos\Giron.Tomas.2019\Entidades\obj\Debug\Entidades.pdb
