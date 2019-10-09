@@ -1,0 +1,7 @@
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\MiClase\bin\Debug\MiClase.exe.config
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\MiClase\bin\Debug\MiClase.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\MiClase\bin\Debug\MiClase.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\MiClase\obj\Debug\Ejercicio_42.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\MiClase\obj\Debug\Ejercicio_42.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\MiClase\obj\Debug\MiClase.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\MiClase\obj\Debug\MiClase.pdb

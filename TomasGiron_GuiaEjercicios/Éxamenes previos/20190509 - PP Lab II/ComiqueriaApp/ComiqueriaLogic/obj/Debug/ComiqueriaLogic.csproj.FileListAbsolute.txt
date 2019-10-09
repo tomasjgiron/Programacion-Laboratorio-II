@@ -1,0 +1,6 @@
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Éxamenes previos\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.dll
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Éxamenes previos\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Éxamenes previos\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Éxamenes previos\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Éxamenes previos\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.dll
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Éxamenes previos\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.pdb

@@ -1,0 +1,7 @@
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_10b\bin\Debug\Ejercicio_10b.exe.config
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_10b\bin\Debug\Ejercicio_10b.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_10b\bin\Debug\Ejercicio_10b.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_10b\obj\Debug\Ejercicio_10b.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_10b\obj\Debug\Ejercicio_10b.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_10b\obj\Debug\Ejercicio_10b.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_10b\obj\Debug\Ejercicio_10b.pdb

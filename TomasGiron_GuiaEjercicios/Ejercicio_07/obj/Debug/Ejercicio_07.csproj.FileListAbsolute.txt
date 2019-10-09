@@ -1,0 +1,7 @@
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_07\bin\Debug\Ejercicio_07.exe.config
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_07\bin\Debug\Ejercicio_07.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_07\bin\Debug\Ejercicio_07.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_07\obj\Debug\Ejercicio_07.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_07\obj\Debug\Ejercicio_07.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_07\obj\Debug\Ejercicio_07.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Ejercicio_07\obj\Debug\Ejercicio_07.csprojAssemblyReference.cache
