@@ -4,3 +4,9 @@ D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.cspro
 D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.dll
 D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.pdb
+C:\Users\tomas\Desktop\Programacion-Laboratorio-II\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.dll
+C:\Users\tomas\Desktop\Programacion-Laboratorio-II\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.pdb
+C:\Users\tomas\Desktop\Programacion-Laboratorio-II\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\tomas\Desktop\Programacion-Laboratorio-II\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Desktop\Programacion-Laboratorio-II\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.dll
+C:\Users\tomas\Desktop\Programacion-Laboratorio-II\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.pdb

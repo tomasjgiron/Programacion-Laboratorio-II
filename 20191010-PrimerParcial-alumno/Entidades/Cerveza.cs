@@ -9,32 +9,31 @@ namespace Entidades
     public class Cerveza : Botella
     {
         #region atributo
-        private static int medida = 330;
+        private const int MEDIDA = 330;
         private Tipo tipo;
         #endregion
 
         #region constructor
-        /// <summary>
-        /// Constructor de Cerveza que usa atributos heredados
-        /// </summary>
-        /// <param name="capacidadML"></param>
-        /// <param name="contenidoML"></param>
-        /// <param name="marca"></param>
-        public Cerveza(int capacidadML, int contenidoML, string marca) 
-            : base(capacidadML, contenidoML, marca)
-        {
-            this.tipo = Tipo.Vidrio;
-        }
-
         /// <summary>
         /// constructor de cerveza que setea tipo que por defecto es de vidrio
         /// </summary>
         /// <param name="capacidadML"></param>
         /// <param name="contenidoML"></param>
         /// <param name="marca"></param>
+        public Cerveza(int capacidadML, int contenidoML, string marca) 
+            : this(capacidadML, contenidoML, marca, Tipo.Vidrio)
+        {
+        }
+
+        /// <summary>
+        /// Constructor de Cerveza que usa atributos heredados
+        /// </summary>
+        /// <param name="capacidadML"></param>
+        /// <param name="contenidoML"></param>
+        /// <param name="marca"></param>
         /// <param name="tipo"></param>
         public Cerveza(int capacidadML, int contenidoML, string marca, Tipo tipo)
-            : this(capacidadML, contenidoML, marca)
+            : base(capacidadML, contenidoML, marca)
         {
             this.tipo = tipo;
         }
@@ -49,7 +48,7 @@ namespace Entidades
         {
             StringBuilder cadenaCerveza = new StringBuilder();
             cadenaCerveza.AppendFormat(base.ToString());
-            cadenaCerveza.AppendFormat("Medida: {0}\r\n", this, medida.ToString());
+            cadenaCerveza.AppendFormat("Medida: {0}\r\n", MEDIDA.ToString());
             cadenaCerveza.AppendFormat("Tipo: {0}\r\n", this.tipo.ToString());
             cadenaCerveza.AppendLine("-------------------------------");
             return cadenaCerveza.ToString();
@@ -62,14 +61,16 @@ namespace Entidades
         public override int ServirMedida()
         {
             int retorno;
-            if (medida <= contenidoML)
+            if (MEDIDA <= this.Contenido)
             {
-                retorno = (medida * 80) / 100;
+                retorno = (MEDIDA * 80) / 100;
             }
             else
             {
-                retorno = contenidoML;
+                retorno = this.Contenido;
             }
+
+            this.Contenido -= retorno;
 
             return retorno;
         }

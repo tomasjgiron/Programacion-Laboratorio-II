@@ -9,11 +9,11 @@ namespace Entidades
     public class Agua : Botella
     {
         #region atributo
-        private static int medida = 400;
+        private const int MEDIDA = 400;
         #endregion
 
         #region constructor
-        protected Agua(int capacidadML, int contenidoML, string marca) 
+        public Agua(int capacidadML, int contenidoML, string marca) 
             : base(capacidadML, contenidoML, marca)
         {
         }
@@ -28,29 +28,31 @@ namespace Entidades
         {
             StringBuilder cadenaAgua = new StringBuilder();
             cadenaAgua.AppendFormat(base.ToString());
-            cadenaAgua.AppendFormat("Medida: {0}\r\n", this,medida.ToString());
+            cadenaAgua.AppendFormat("Medida: {0}\r\n", MEDIDA.ToString());
             cadenaAgua.AppendLine("-------------------------------");
             return cadenaAgua.ToString();
         }
 
-        public override int ServirMedida()
+        public override int ServirMedida()//preguntar
         {
             int retorno;
-            if(medida <= contenidoML)
+            if(MEDIDA <= this.Contenido)
             {
-                retorno = medida;
+                retorno = MEDIDA;
             }
             else
             {
-                retorno = contenidoML;
+                retorno = this.Contenido;
             }
+
+            this.Contenido -= retorno;
 
             return retorno;
         }
 
         public int ServirMedida(int medida)
         {
-            return contenidoML - medida;
+            return this.Contenido -= medida;
         }
         #endregion
     }

@@ -46,7 +46,7 @@ namespace Entidades
             get
             {
 
-                return capacidadML / 1000;
+                return this.capacidadML / 1000;
             }
         }
 
@@ -57,11 +57,11 @@ namespace Entidades
         {
             get
             {
-                return contenidoML;
+                return this.contenidoML;
             }
             set
             {
-                contenidoML = value;
+                this.contenidoML = value;
             }
         }
 
@@ -72,7 +72,7 @@ namespace Entidades
         {
             get
             {
-                return (contenidoML * 100) / capacidadML;
+                return (this.contenidoML * 100) / this.capacidadML;
             }
 
         }
@@ -107,7 +107,7 @@ namespace Entidades
         /// <returns></returns>
         public override string ToString()
         {
-            return GenerarInforme().ToString();
+            return this.GenerarInforme();
         }
         #endregion
 

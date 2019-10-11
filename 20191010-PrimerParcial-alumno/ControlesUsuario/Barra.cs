@@ -44,7 +44,7 @@ namespace ControlCantina
 
         public void DibujarBotellas()
         {
-            foreach (Botella item in this.cantina.Botella)
+            foreach (Botella item in this.cantina.Botellas)
             {
                 this.BotellaEnBarra(item);
             }
