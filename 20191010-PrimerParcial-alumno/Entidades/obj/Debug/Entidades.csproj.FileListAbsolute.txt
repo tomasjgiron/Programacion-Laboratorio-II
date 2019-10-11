@@ -1,0 +1,6 @@
+D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.dll
+D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.pdb
+D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.dll
+D:\Tomas Giron\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.pdb
