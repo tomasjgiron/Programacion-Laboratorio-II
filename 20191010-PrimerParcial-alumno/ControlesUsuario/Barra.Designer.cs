@@ -33,12 +33,12 @@
             // 
             // Barra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Barra";
-            this.Size = new System.Drawing.Size(551, 368);
-            this.Load += new System.EventHandler(this.Barra_Load);
+            this.Size = new System.Drawing.Size(735, 453);
             this.ResumeLayout(false);
 
         }

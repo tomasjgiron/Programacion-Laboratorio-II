@@ -13,6 +13,12 @@ namespace Entidades
         #endregion
 
         #region constructor
+        /// <summary>
+        /// Constructor de agua que usa atributos de la clase padre
+        /// </summary>
+        /// <param name="capacidadML"></param>
+        /// <param name="contenidoML"></param>
+        /// <param name="marca"></param>
         public Agua(int capacidadML, int contenidoML, string marca) 
             : base(capacidadML, contenidoML, marca)
         {
@@ -24,21 +30,35 @@ namespace Entidades
         /// Método que muestra datos de agua
         /// </summary>
         /// <returns></returns>
-        protected new string GenerarInforme()
+        protected override string GenerarInforme()
         {
             StringBuilder cadenaAgua = new StringBuilder();
-            cadenaAgua.AppendFormat(base.ToString());
-            cadenaAgua.AppendFormat("Medida: {0}\r\n", MEDIDA.ToString());
+            cadenaAgua.AppendFormat(base.GenerarInforme());
+            cadenaAgua.AppendFormat("Medida: {0}\r\n", MEDIDA);
             cadenaAgua.AppendLine("-------------------------------");
             return cadenaAgua.ToString();
         }
 
-        public override int ServirMedida()//preguntar
+        /// <summary>
+        /// Reutiliza el metodo ServirMedida de agua
+        /// </summary>
+        /// <returns></returns>
+        public override int ServirMedida()
+        {
+            return ServirMedida(MEDIDA);
+        }
+
+        /// <summary>
+        /// Implementa el metodo ServirMedida de la clase base
+        /// </summary>
+        /// <param name="medida"></param>
+        /// <returns></returns>
+        public int ServirMedida(int medida)
         {
             int retorno;
-            if(MEDIDA <= this.Contenido)
+            if (medida <= this.Contenido)
             {
-                retorno = MEDIDA;
+                retorno = medida;
             }
             else
             {
@@ -48,11 +68,6 @@ namespace Entidades
             this.Contenido -= retorno;
 
             return retorno;
-        }
-
-        public int ServirMedida(int medida)
-        {
-            return this.Contenido -= medida;
         }
         #endregion
     }

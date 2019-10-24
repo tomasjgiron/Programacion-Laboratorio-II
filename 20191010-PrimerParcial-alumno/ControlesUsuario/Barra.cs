@@ -103,10 +103,5 @@ namespace ControlCantina
             }
             pb.Location = ubicacion;
         }
-
-        private void Barra_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

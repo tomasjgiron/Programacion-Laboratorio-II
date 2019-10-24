@@ -14,17 +14,31 @@ namespace FrmCantina
 {
     public partial class FormCantina : Form
     {
+        /// <summary>
+        /// Inicializa los componentes del FormCantina
+        /// </summary>
         public FormCantina()
         {
             InitializeComponent();
-            this.barra.SetCantina = Cantina.GetCantina(10);
         }
 
+        /// <summary>
+        /// Carga el formulario, establece el cmbBox con los tipos de botella
+        /// y los espacios disponibles en la cantina
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
             cmbBoxTipo.DataSource = Enum.GetValues(typeof(Botella.Tipo));
+            this.barra.SetCantina = Cantina.GetCantina(10);
         }
 
+        /// <summary>
+        /// Agrega botellas a la barra
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             string marca = txtBoxMarca.Text;

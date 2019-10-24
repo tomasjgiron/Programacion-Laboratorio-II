@@ -26,7 +26,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Constructor de Cerveza que usa atributos heredados
+        /// Constructor de Cerveza que usa atributos heredados y setea tipo
         /// </summary>
         /// <param name="capacidadML"></param>
         /// <param name="contenidoML"></param>
@@ -44,18 +44,18 @@ namespace Entidades
         /// Método que muestra datos de cerveza
         /// </summary>
         /// <returns></returns>
-        protected new string GenerarInforme()
+        protected override string GenerarInforme()
         {
             StringBuilder cadenaCerveza = new StringBuilder();
-            cadenaCerveza.AppendFormat(base.ToString());
+            cadenaCerveza.AppendFormat(base.GenerarInforme());
             cadenaCerveza.AppendFormat("Medida: {0}\r\n", MEDIDA.ToString());
-            cadenaCerveza.AppendFormat("Tipo: {0}\r\n", this.tipo.ToString());
+            cadenaCerveza.AppendFormat("Tipo: {0}\r\n", this.tipo);
             cadenaCerveza.AppendLine("-------------------------------");
             return cadenaCerveza.ToString();
         }
 
         /// <summary>
-        /// metodo servir medida
+        /// Implementa el metodo ServirMedida de la clase base
         /// </summary>
         /// <returns></returns>
         public override int ServirMedida()

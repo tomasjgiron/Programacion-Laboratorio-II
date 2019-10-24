@@ -22,9 +22,5 @@ namespace FormCentralita
         {
             rtbMostrar.Text = value;
         }
-
-        private void FrmMostrar_Load(object sender, EventArgs e)
-        {
-        }
     }
 }

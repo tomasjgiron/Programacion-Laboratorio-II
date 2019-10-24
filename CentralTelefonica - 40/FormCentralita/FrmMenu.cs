@@ -73,7 +73,7 @@ namespace FormCentralita
             //MessageBox.Show(aux); //esta es otra opcion para mostrar los datos
 
             Form frmMostrar = new FrmMostrar(aux);
-            frmMostrar.Show();
+            frmMostrar.ShowDialog();
         }
 
         private void btnProvincial_Click(object sender, EventArgs e)
@@ -92,9 +92,10 @@ namespace FormCentralita
             }
             //MessageBox.Show(aux);
             Form frmMostrar = new FrmMostrar(aux);
-            frmMostrar.Show();
+            frmMostrar.ShowDialog();
         }
 
+        
         private void FrmMenu_Load(object sender, EventArgs e)
         {
             central = CrearLlamadas();
@@ -121,5 +122,6 @@ namespace FormCentralita
 
             return c;
         }
+        
     }
 }

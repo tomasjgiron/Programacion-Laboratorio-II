@@ -27,10 +27,6 @@ namespace FormCentralita
             this.central = central;
         }
 
-        private void FrmLlamador_Load(object sender, EventArgs e)
-        {
-        }
-
         private void txtDestino_TextChanged(object sender, EventArgs e)
         {
             if(txtDestino.Text.StartsWith("#"))
@@ -42,6 +38,7 @@ namespace FormCentralita
                 cmbFranja.Enabled = false;
             }
         }
+
         #region numeros
         private void btnUno_Click(object sender, EventArgs e)
         {

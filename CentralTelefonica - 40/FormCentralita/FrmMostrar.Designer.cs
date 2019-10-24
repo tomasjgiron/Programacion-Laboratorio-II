@@ -47,7 +47,6 @@
             this.Controls.Add(this.rtbMostrar);
             this.Name = "FrmMostrar";
             this.Text = "FrmMostrar";
-            this.Load += new System.EventHandler(this.FrmMostrar_Load);
             this.ResumeLayout(false);
 
         }
